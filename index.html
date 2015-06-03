@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Karina Zhou Front-End Portfolio</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400">
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-content row margin-top-20px">
+        <figure class="header-pic col-xs-12 col-sm-6">
+          <img src="image/UdacityLogo100.png" alt="udacity logo" class="img-responsive">
+        </figure>
+        <div class="header-caption col-xs-12 col-sm-6 text-right text-uppercase">
+          <h1>Karina Zhou</h1>
+          <h3>Front-end Ninja</h3>
+        </div>
+      </div>
+    </header>
+
+    <hr>
+
+    <main>
+      <figure class="row">
+        <div class="col-xs-12 margin-bottom-15px">
+          <img src="image/foodcropped.jpg" alt="title image" class="img-responsive">
+        </div>
+      </figure>
+
+      <section class="projects">
+        <section class="projects-title row">
+          <div class="col-xs-12 margin-bottom-5px">
+            <h2>Featured Work</h2>
+          </div>
+        </section>
+
+        <section class="projects-list row text-center">
+          <article class="projects-item col-xs-12 col-md-4">
+            <img src="image/SummerBlueSmall.jpg" alt="summer beach" class="img-responsive center" data-toggle="modal" data-target="#project1">
+            <h4>Appify Project1</h4>
+            <p>
+              <a href="http://github.com/">Link to project1</a>
+            </p>
+          </article>
+          <article class="projects-item col-xs-12 col-md-4">
+            <img src="image/Purpleflower550.jpg" alt="flower" class="img-responsive center" data-toggle="modal" data-target="#project2">
+            <h4>Appify Project2</h4>
+            <p>
+              <a href="http://github.com/">Link to project2</a>
+            </p>
+          </article>
+          <article class="projects-item col-xs-12 col-md-4">
+            <img src="image/UmbrellaSmall.jpg" alt="japanese umbrella" class="img-responsive center" data-toggle="modal" data-target="#project3">
+            <h4>Appify Project3</h4>
+            <p>
+              <a href="http://github.com/">Link to project3</a>
+            </p>
+          </article>
+        </section>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="p1-modallabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="p1-modallabel">Project1 Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="image/SummerBlueSmall.jpg" alt="summer beach">
+          <p>This is the Summer Beach Pic from Internet. It's time to go on vacation ;)</p>
+          <p>by KZ</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="p2-modallabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="p2-modallabel">Project2 Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="image/Purpleflower550.jpg" alt="flower">
+          <p>This is the Purple Flower Pic from Internet. I love this picture :)</p>
+          <p>by KZ</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="p3-modallabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="p3-modallabel">Project3 Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="image/UmbrellaSmall.jpg" alt="japanese umbrella">
+          <p>This is the Umbrella Pic from Internet. I wish I could have a trip to Japan in the future :)</p>
+          <p>by KZ</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

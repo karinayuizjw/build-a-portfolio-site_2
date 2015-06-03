@@ -1,0 +1,113 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #747704;
+}
+
+h2 {
+	color: #bcbbbb;
+}
+
+h4 {
+	text-transform: uppercase;
+}
+
+hr {
+	border-top: 4px solid #bcbbbb;
+}
+
+.margin-top-20px {
+	margin-top: 20px;
+}
+
+.margin-bottom-15px {
+	margin-bottom: 15px;
+}
+
+.margin-bottom-5px {
+	margin-bottom: 5px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Small devices, phones */
+@media only screen and (min-width: 320px) {
+	h1 {
+		margin-top: 5px;
+		font-size: 40px;
+		font-weight: 100;
+	}
+
+	h2 {
+		margin-left: 10px;
+		font-size: 32px;
+		text-align: center;
+	}
+
+	h3 {
+		margin-top: 0;
+		font-weight: 600;
+	}
+
+	h4 {
+		margin-top: 15px;
+		font-size: 26px;
+	}
+
+	p {
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+}
+
+/* Medium devices, tablets */
+@media only screen and (min-width: 768px) {
+	h1 {
+		margin-top: 10px;
+		font-size: 51px;
+		font-weight: 100;
+	}
+
+	h2 {
+		margin-left: 10px;
+		font-size: 45px;
+		text-align: center;
+	}
+
+	h3 {
+		margin-top: 0;
+		font-weight: 600;
+	}
+
+	h4 {
+		margin-top: 15px;
+		font-size: 30px;
+	}
+}
+
+/* Large devices, desktops */
+@media only screen and (min-width: 992px) {
+	h1 {
+		margin-top: 10px;
+		font-size: 60px;
+		font-weight: 100;
+	}
+
+	h2 {
+		margin-left: 10px;
+		font-size: 45px;
+		text-align: left;
+	}
+
+	h3 {
+		margin-top: 0;
+		font-weight: 600;
+	}
+
+	h4 {
+		margin-top: 15px;
+		font-size: 30px;
+	}
+}
